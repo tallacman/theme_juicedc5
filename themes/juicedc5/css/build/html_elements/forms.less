@@ -1,0 +1,33 @@
+// forms and buttons
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+textarea,
+select {
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 110%;
+    font-weight: 200;
+}
+label.control-label {
+    font-weight: 200 !important;
+}
+.btn {
+    border-style: none;
+    background-color: @form-button-color;
+    padding: 12px 22px;
+    color: #fff;
+}
+.btn:hover {
+    background-color: @form-button-hover-color;
+    color: #fff;
+}

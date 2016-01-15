@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<styles version="1.0">
+
+    <set name="Fonts">
+        <style name="Sitename" variable="sitename" type="type" />
+        <style name="Text" variable="body" type="type" />
+        <style name="Navigation" variable="header-navigation" type="type" />
+
+    </set>
+
+    <set name="Navigation">
+        <style name="Navigation Hover" variable="header-navigation-link-hover" type="color" />
+        <style name="Navigation Menu Background" variable="header-navigation-background" type="color" />
+        <style name="Navigation Menu Background Hover" variable="header-navigation-background-hover" type="color" />
+        <style name="Navigation Menu Text Hover" variable="header-navigation-link-hover" type="color" />
+    </set>
+
+    <set name="Headers">
+        <style name="Heading 1" variable="h1" type="type" />
+        <style name="Heading 2" variable="h2" type="type" />
+        <style name="Heading 3" variable="h3" type="type" />
+        <style name="Heading 4" variable="h4" type="type" />
+        <style name="Heading 5" variable="h5" type="type" />
+        <style name="Heading 6" variable="h6" type="type" />
+    </set>
+
+
+
+
+</styles>
